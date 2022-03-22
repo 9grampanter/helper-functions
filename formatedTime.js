@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 export default function formattedTime() {
   const time = new Date();
 
@@ -7,3 +8,9 @@ export default function formattedTime() {
   const formatedTime = `${hours}:${minutes}:${seconds}`;
   return formatedTime;
 }
+=======
+const dubbleZero = parseInt('00');
+const time = new Date();
+const formatedDate = `${dubbleZero + time.getHours()}:${dubbleZero + time.getMinutes()}:${dubbleZero + time.getSeconds()}`;
+console.log(formatedDate);
+>>>>>>> 2f6ef6812f5f5c2d004319d68aca073aa4053ad0
